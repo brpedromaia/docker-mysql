@@ -44,7 +44,7 @@ docker run -it --hostname=mysql --name=mysql brpedromaia/mysql -bash
 docker run -itd  --hostname=mysql --name=mysql -p3306:3306 brpedromaia/mysql
 ```
 
-## Testing
+# Testing
 
 You can run one of the stock examples:
 
@@ -52,7 +52,7 @@ You can run one of the stock examples:
 mysql -uroot -pmysqlPassword -e "select user, host FROM mysql.user;"
 ```
 
-## Client config 
+# Client config 
 ```
 hostname: localhost
 port: 3306
@@ -60,6 +60,6 @@ username: hive
 password: hive
 ```
 
-## Automate everything
+# Automate everything
 
 To automate everything add code into "__start_mysql" function on mysql-configuration.sh 
